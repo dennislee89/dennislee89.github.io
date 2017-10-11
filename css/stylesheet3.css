@@ -1,0 +1,443 @@
+html, body {
+        
+     margin:0; /* remove default margin */
+     padding:0; /* remove default padding */
+     width:100%; /* take full browser width */
+     height:100%; /* take full browser height*/
+}
+
+.screen {
+                font-size: 0.5em;
+                margin: 0;
+                background-color: red;
+                position: absolute;
+                width: 100% /* BenM mentioned this in answer*/
+                height: 100%; /* take full browser height */
+                left: 0;
+                top: 0;
+            }
+
+body {
+    margin: 0;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+}
+
+
+header{	
+	background-image: url("http://posbrand.com/wp-content/uploads/2015/08/Free-Download-HD-Modern-Office.jpg");
+	background-size: cover;
+	height: 950px;
+	width: 1850px;
+	background-repeat:no-repeat;
+	 margin: 0;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+
+nav a{
+	display: inline-block;
+	margin-left: 50px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	color: black;
+	font-size: 24px;
+	float: right;
+	margin: 30px 30px 0 0;
+
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+	clear: both;
+	padding-top: 150px;
+}
+
+.kicker {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+.lockup {
+	margin: 50px 30px;
+}
+
+.content-wrap {
+	float: left;
+	clear: both;
+}
+
+.copyright {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/*
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+}
+*/
+
+h5 {
+	text-align: center;
+	font-size: 4em;
+	position: absolute;
+	top: 78%;
+	left: 35%;
+
+}								
+
+
+										/*side Nav*/
+.sideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;     /*on top of "about"*/ 
+	background-color: #111;
+	z-index: 1;
+}
+
+.sideNav a{
+	color: white; 
+	font-size: 24px;
+	padding: 8px 8px 8px 32px;
+	display: block;
+	transition: 0.3s; 
+}
+
+.sideNav a:hover, .offcanvas a:focus{
+	color: teal;
+}
+
+
+.closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 60px;
+	margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+									/*Form */ 
+
+form {
+	max-width: 500px;
+	margin: 0 auto 50px;
+	
+}
+
+label {
+	display: block;
+	margin-bottom: 20px;
+}
+span {
+	display: block;
+}
+
+input, textarea {
+	border: 2px solid black;
+}
+
+
+.contact-info {
+	position: relative;
+
+}
+
+
+
+					/*Side*/ 
+.side {
+text-align: center;
+float: right;
+background-color: white;
+width: 30%;
+height: 510px;
+
+}
+
+.side span{
+	font-size: 1em;
+}
+
+
+.servicepics img:hover {
+	opacity: 0.5;
+}
+
+
+.content4 {
+	background-color: gray;
+}
+
+
+#aaa span{
+	color: white; 
+	font-size: 1.5em;  
+	text-align: center;
+	position: relative; 
+	top: 10%;
+}
+
+
+
+/* Images */
+
+#pen {
+width: 33%;
+height: auto;
+}
+
+#fly {
+	width: 33%;
+	height: auto;
+}
+
+#corp {
+	width: 33%;
+	height: auto;
+}
+
+#girl {
+	width: 33%;
+	height: auto;
+}
+
+
+#mock {
+	width: 33%;
+	height: auto;
+}
+
+#misc {
+	width: 33%;
+	height: auto;
+}
+
+#misc:hover{
+	opacity: 0.5;
+}
+
+
+
+
+#chicago {
+	width: 33%;
+	
+}
+
+#chicago2 {
+	width: 33%;
+	
+}
+
+#chicago3{
+	width: 33%;
+		
+}
+
+
+.simpleCart_items{
+			overflow-y:auto;
+			overflow-x:hidden;
+			height:324px;
+			width:320px;
+			margin-bottom:20px;
+}
+
+
+#sidebar {
+	height: 100%;
+	width: 18%;
+	position: fixed;
+	top: 120px;
+	background-color: #B0B0B0 ;
+	right: 2px;
+	padding: 5px;
+
+}
+
+#sidebar a{
+	font-size:1.5em;
+	color:#000;
+}
+
+#sidebar a.simpleCart_checkout,
+.checkoutEmptyLinks a.simpleCart_checkout{
+display:-moz-inline-box;
+	display:inline-block;
+	overflow:hidden;
+	font-size: 1.5em;
+}
+
+#sidebar .simpleCart_empty{
+	font-size: 1.5em;
+}
+
+
+
+.simpleCart_shelfItem{
+	width:40%;
+	margin:30px 0 0 10px;
+	float:left;
+	height:444px;
+}
+
+
+.itemPrice{
+	float:left;
+	width:85px;
+	color:#418932;
+}
+
+
+#nav {
+	background-color: white;
+	position: fixed;
+	right: 0px;
+	height: 120px;
+	width: 100%;
+	top: 0;
+	 z-index: 500;
+}
+
+#nav a:hover {
+	color: teal;
+}
+
+
+h3{
+	font-size: 4em; 
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+h4{ font-size: 2em;
+
+}
+
+
+#paper {
+	width: 36%;
+	padding: 3%;
+	border-right: thin solid black;
+}
+
+#supplies{
+	width: 28%;
+	padding: 3%;
+}
+
+#comb{
+	width: 30%; 
+	padding: 3%; 
+	border-right: thin solid black;
+}
+
+#staple{
+	width: 28%; 
+	padding: 3%;
+}
+
+#scalecart{
+	width: 10%;
+}
+
+
+#empty{
+	width: 4%;
+	margin-right: 3%;
+}
+
+#pal{
+	width: 10%; 
+	margin-left: 5%;
+
+}
+
+
+h2{
+	font-size: 4em;
+	color: white; 
+	text-decoration: underline;
+	text-align: center;
+}
+
+
+
+/*Media Queries*/  											
+
+@media screen and (max-width: 1700px) {
+	h1 { font-size: 4.5em;}
+	h3 {font-size: 3.7em;}
+}
+
+
+@media screen and (max-width: 1300px) {
+	h1 { font-size: 4.5em;}
+	h3 { font-size: 3.5em;}
+}	
+
+
+@media screen and (max-width: 1000px) {
+	h1 { font-size: 4em;}
+	h3 {font-size: 3.5em;}
+	.side span{ font-size: 0.9em; }
+}
+
+
+@media screen and (max-width: 700px) {
+	h1 { font-size: 3em;}
+	h3 {font-size: 3em;}
+	#nav a{font-size: 0.8em;}  
+	#nav a{margin-top: 35px;} 
+	.logo { width: 12%; }
+	.side span{ font-size: 1em; }
+	.side {width: 100%;}
+	h4{ font-size: 1.5em; }
+	#staple{margin-right: 120px;}
+	#comb {margin-right: 120px;}
+	#supplies{margin-left: 60px;}
+	#paper{margin-left: 40px;}
+	#scalecart {width: 40%;}
+	.simpleCart_checkout{font-size: 1em;}
+	#sidebar .simpleCart_empty{font-size: 1em;}
+	#empty{width: 15%;}
+	#pal{width: 40%;}
+	iframe{width: 0;}
+	#aaa span{font-size: 1.2em;}
+	#nav {height: 80px;}
+	h2{font-size: 2.5em;}
+}
+
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+				<title>My Webpage</title>
+
+<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>		
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+		
+	<img class="coverpic" src="img/cover.jpg" alt="cover picture" />
+
+	<nav>
+	 <ul>
+	  <li><a href="#about" >ABOUT ME</a></li>
+	  <li><a href="#portfolio">PROJECTS</a></li>
+	  <li><a href="https://dennisleesite.wordpress.com/" class="smoothScroll navbar">BLOG</a></li>
+	   <li><a href="#contactme">CONTACT</a></li>
+	</ul>
+	</nav>
+
+
+					<!--Side Nav--> 
+				<span id="menubtn" onclick="openNav()">&#9776;</span>
+
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtnNav" onclick="closeNav()">X</a>
+				<a href="#about" class="smoothScroll navbar">About</a>	
+				<a href="#portfolio" class="smoothScroll navbar">Projects</a>
+				<a href="https://dennisleesite.wordpress.com/" class="smoothScroll navbar">Blog</a>
+				<a href="#contactme" class="smoothScroll navbar">Contact</a>
+			</div>
+
+
+
+				<div class="top">
+					<h1>DENNIS L</h1>
+					
+					<span class="jobtitle">FRONT END WEB DEVELOPER</span>
+				</div>
+
+
+
+	<div class='about'>
+	<a id="about"></a>
+	  <h2>About Me</h2>
+
+	  	<div id="main-wrap">
+	  		<div id="text-left">
+				<p>I have beeen teaching myself Web development since March 2016<br>I first started with books by Jon Duckett and then moved onto using 
+				FreeCodeCamp.  <br>I graduated from DePaul University with a Bachelors in Business Management in 2012.<br> I currently work full time in the accounting department, but have been learning web development right after work. <br>
+					On my free time other than learning about web development, I like to produce electronic music, work out at the gym, Brazilian jiu-jitsu, play guitar, and oil paint. <br> Currently I am familiar with using HTML, CSS/SASS, Javascript, jQuery, vue, and Bootstrap. <br> As well as basic knowledge of using Adobe Photoshop and Illustrator.
+					
+				</p>
+			</div>
+
+			<div id="pic-right"> <img src="img/self.jpg" style="width: 50%"></div>
+		</div>
+	</div>
+
+
+			<div class='portfolio'>
+				<a id="portfolio"></a>
+			  <h2 style="color: #FECD04">Projects</h2>
+			  <img class='portpic' src='img/myweb.jpg' alt="portfolio picture">
+			  
+
+			  <h4>My Webpage</h4>
+			    <div class='boxes'>
+			      <a  class="box"  href="index.html">Site</a>
+			      <a  class="box2"  href="https://github.com/dennislee89/portfolio">Code</a>
+			    </div>
+			  
+			    <span class='portText'>
+			      First Site I created in early 2016<br>
+			      Created this site along with Jon Duckett books and Free Code Camp <br>
+			HTML, CSS, Javascript, and Jquery were used to create the web page.<br>
+			  </span>
+			  
+			  <div class='tags'>
+			      <div class='tag'>HTML</div>
+			      <div class='tag'>CSS</div>
+			      <div class='tag'>JavaScript</div>
+			      <div class='tag'>jQuery</div>
+			  </div>
+			  <hr>
+			</div>	
+				
+
+
+			<div class='portfolio'>
+
+
+				<div class='portfolio'>	  
+			  <img class='portpic' src='img/chifront.jpg' alt="chicago picture">
+			  
+			  <h4>Chicago Guide</h4>
+			    <div class='boxes'>
+			      <a  class="box"  href="chicago.html">Site</a>
+			      <a  class="box2"  href="https://github.com/dennislee89/guide-to-chicago">Code</a>
+			    </div>
+			  
+			    <span class='portText'>
+			    Designed webpage using HTML, SASS, Javascript, jQuery 
+				<br> Built the site with mobile device first in mind.
+				<br> My first attempt in using/learning how to configure weather API
+				<br> Learned how to use JSON along with the weather API
+			  </span>
+			  
+			  <div class='tags'>
+			      <div class='tag'>HTML</div>
+			      <div class='tag'>CSS</div>
+			      <div class='tag'>JavaScript</div>
+			      <div class='tag'>jQuery</div>
+			      <div class='tag'>API</div>
+			  </div>
+			 <hr>
+			</div>
+
+
+			  
+			  <img class='portpic' src='img/bullsSite.jpg' alt="bullsfansite picture">
+			  
+			  <h4>Chicago Bulls Fan site</h4>
+			    <div class='boxes'>
+			      <a  class="box"  href="bulls-main.html">Site</a>
+			      <a  class="box2"  href="https://github.com/dennislee89/bullsfansite.git">Code</a>
+			    </div>
+			  
+			    <span class='portText'>
+			     Learned how to create content panel, carousel, and jquery animations.
+				<br> Built the site with mobile device first in mind.
+				<br> Created script that changes content/chart based on button selection.
+				<br> Applied chart.js and html canvas.
+			  </span>
+			  
+			  <div class='tags'>
+			      <div class='tag'>HTML</div>
+			      <div class='tag'>CSS</div>
+			      <div class='tag'>JavaScript</div>
+			      <div class='tag'>jQuery</div>
+			      <div class='tag'>Bootstrap</div>
+			  </div>
+			  <hr>
+			</div>
+
+
+			<div class='portfolio'>
+			  
+			  <img class='portpic' src='img/portfolio1.jpg' alt="badmintonSite picture">
+			  
+			  <h4>Dallas Badminton Club</h4>
+			    <div class='boxes'>
+			      <a  class="box"  href="index2.html">Site</a>
+			      <a  class="box2"  href="https://github.com/dennislee89/badmintonSite">Code</a>
+			    </div>
+			  
+			    <span class='portText'>
+			      Learned to create an image slider, image gallery, and a dropdown menu. 
+				<br> Learned how to make sites more responsive to mobile devices.
+				<br> Learned how to use media queries with CSS to make it fit every resolution
+			  </span>
+			  
+			  <div class='tags'>
+			      <div class='tag'>HTML</div>
+			      <div class='tag'>CSS</div>
+			      <div class='tag'>JavaScript</div>
+			      <div class='tag'>jQuery</div>
+			  </div>
+			  
+			</div>
+
+
+
+
+
+				<div class="contact">
+					<a id="contactme"></a>
+       				 <h2>Contact</h2>
+				        <form id="form" action="https://formspree.io/dennislee0890@hotmail.com"
+				      method="POST">
+				        	<span >Your Name:</span>
+				         <input id="name" type=text placeholder="Name">
+
+				         	<span >Your Email:</span>
+				         <input  id="email" type=email name="email" placeholder="Email"> 
+
+				         	<span >Your Message:</span>
+				         <textarea id="messages" name="message" placeholder="Message" wrap="virtual"></textarea>
+				         <button type="submit">Submit</button>
+				         <input type="hidden" name="_next" value="" />
+
+				       </form>
+     			 </div>
+
+<!--
+<footer>
+  <div class='bottom'>
+   <a href="https://github.com/dennislee89"> <div class="bottomicon fontawesome-github"></div></a>
+   <a href="https://www.linkedin.com/in/dennis-lee-b4785633?trk=nav_responsive_tab_profile"> <div class="bottomicon fontawesome-linkedin-sign"></div></a>
+    <div class="bottomicon fontawesome-globe"></div>
+  </div>
+</footer>				
+			
+-->
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script> 
+<script type="text/javascript" src="javascript/portfolioscript.js"></script>  
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+
+</body>
+</html>
+
+

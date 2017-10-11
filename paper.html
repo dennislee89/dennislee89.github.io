@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+									<title></title>
+<div class="logo"></div>
+
+
+	<nav id="nav">
+		
+		<a href="index.html #contact" class="smoothScroll">Contact</a>
+        <a href="preshop.html" class="smoothScroll">Shop</a>
+        <a href="index.html #services" class="smoothScroll">Services</a>
+        <a href="index.html #about" class="smoothScroll">About</a>
+        <a href="index.html">Home</a>
+        
+       
+
+<div class="logo"> <img src="LSKimg/logo.jpg" style="width: 6%; position: absolute; top: 6%;"></div>
+
+
+	</nav>
+
+<div> <img src="LSKimg/color.jpg" style="width: 100%; height: 800px;">
+            <h5>Paper</h5>
+</div>
+
+</head>
+<link type="text/css" rel="stylesheet" href="css/stylesheet3.css"/> 
+
+
+
+<body>
+<br><br><br><br><br><br>
+
+<div class="simpleCart_shelfItem" style="text-align: center;">
+
+	<h2 class="item_name"> Wausau Paper </h2> 
+
+				<p style="text-align: center; font-size: 1.2em;">For Use with inkjet and laser printers</p>
+    
+    <img src="LSKimg/Wausau.jpg" style="width: 20%;" class="item_thumb" />
+
+    <select class="item_color">
+        <option value="White"> White </option>
+        <option value="Yellow"> Yellow </option>
+        <option value="Red"> Red </option>
+        <option value="Gold"> Gold </option>
+        <option value="Tan"> Tan </option>
+        <option value="Pink"> Pink </option>
+        <option value="Orchid"> Orchid </option>  
+        <option value="Blue"> Blue </option>  
+    </select>
+    <input type="text" value="1" class="item_Quantity">
+    <span class="item_price"><p style="font-size: 1.5em;">$7.50</p></span>
+    <a class="item_add" href="javascript:;"> <img id="scalecart" src="LSKimg/cart.png"></a>
+<hr>
+</div> 
+
+
+
+<div class="simpleCart_shelfItem" style="text-align: center;">
+	<h2 class="item_name"> Black Cover </h2>
+		<p style="text-align: center; font-size: 1.2em;">Black Back Binding Cover</p>
+    <img src="LSKimg/black.jpg" style="width: 20%;" class="item_thumb" />
+    <select class="item_size">
+        <option value="quantity"> Quantity  </option>
+    </select>
+    <input type="text" value="1" class="item_Quantity">
+    <span class="item_price"><p style="font-size: 1.5em;">$31.89</p></span>
+    <a class="item_add" href="javascript:;"> <img id="scalecart" src="LSKimg/cart.png"></a>
+<hr>
+</div>
+
+
+
+<div class="simpleCart_shelfItem"style="text-align: center;"> <br><br><br><br>
+	<h2 class="item_name"> Clear Front </h2>
+				<p style="text-align: center; font-size: 1.2em;">Clear Front Binding Covers. 100 per box</p>
+    <img src="LSKimg/clear.jpg" style="width: 20%;" class="item_thumb" /> 
+    <select class="item_size">
+        <option value="quantity">Quantity </option>       
+    </select>
+    <input type="text" value="1" class="item_Quantity">
+    <span class="item_price"><p style="font-size: 1.5em;">$22.89</p></span>
+    <a class="item_add" href="javascript:;"><img id="scalecart" src="LSKimg/cart.png"> </a>
+</div>
+
+
+
+
+
+
+
+<!--<div class="simpleCart_shelfItem">
+    <img src="/images/item_thumb.jpg" class="item_thumb" />
+    <h2 class="item_name"> Paper </h2>
+    <select class="item_color">
+        <option value="white"> White </option>
+        <option value="Medium"> Medium </option>
+        <option value="Large"> Large </option>
+    </select>
+    <input type="text" value="1" class="item_Quantity">
+    <span class="item_price">$35.99</span>
+    <a class="item_add" href="javascript:;"> Add to Cart </a>
+</div>
+
+-->
+
+<br><br><br><br><br>
+
+
+
+
+
+<div id="sidebar">
+				<h2 style="font-size: 1.5em;">Your Cart</h2>
+				
+				
+				<!--Add a Div with the class "simpleCart_items" to show your shopping cart area.-->
+				<div class="simpleCart_items" >
+				</div>
+				
+				
+
+SubTotal: <span class="simpleCart_total"></span> <br />
+    Tax: <span class="simpleCart_taxCost"></span> <br />
+    Shipping: <span class="simpleCart_shipping"></span> <br />
+    -----------------------------<br />
+    Grand Total: <span class="simpleCart_grandTotal"></span> 
+
+
+
+
+				<!--Here's the Links to Checkout and Empty Cart-->
+				<a href="#" class="simpleCart_empty">Empty Cart</a>
+				<br><br>
+				<a href="cart.html" class="simpleCart_checkout">Checkout</a>
+
+
+
+</div>	
+
+
+
+
+
+
+
+				<!-- Fixed cart on bottom right -->
+                <!--
+<div id="carticon" style="text-align: center; position: fixed; top: 20%;">
+<a href="javascript:;" class="simpleCart_checkout">
+	<img src="img/cart.png" style="width: 3%;">
+<div class="simpleCart_quantity" style="text-align: center; color: black; font-size: 30px;"></div>
+</a>
+-->
+
+<br><br>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="jquery.js"></script> 
+<script type="text/javascript" src="java/script.js"></script>  
+<script type="text/javascript" src="java/smoothscroll.js"></script>
+<script type="text/javascript" src="java/simpleCart.js"></script>
+
+<script src="java/simpleCart.js"></script>
+
+<script>
+    simpleCart({
+        checkout: { 
+            type: "PayPal" , 
+            email: "you@yours.com" 
+            
+        },
+      
+    cartStyle: "table"
+
+    }); 
+</script>
+
+<script>
+simpleCart.bind( 'beforeCheckout' , function( data ){
+data.first_name = document.getElementById("first_name").value;
+data.last_name = document.getElementById("last_name").value;
+data.email = document.getElementById("email").value;
+data.phone = document.getElementById("phone").value;
+data.comments = document.getElementById("comments").value;
+data.adress = document.getElementById("adress").value;
+});
+</script>
+
+</body>
+</html>

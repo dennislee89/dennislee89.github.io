@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/* entypo */
+[class*="fontawesome-"]:before {
+  font-family: "fontawesome", sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #D8D8D8; }
+
+h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #FECD04;
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  font-size: 6em;
+  width: 95%;
+  height: 0;
+  z-index: 2; }
+
+h2 {
+  text-align: center;
+  font-size: 4em;
+  color: #011627;
+  font-family: "Open Sans", sans-serif; }
+
+.jobtitle {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  text-align: center;
+  width: 95%;
+  height: 0;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif; }
+
+.top {
+  color: white;
+  position: absolute;
+  text-align: center;
+  text-align: center;
+  width: 95%;
+  height: 0;
+  top: 35%; }
+
+.navbar {
+  position: relative;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif; }
+
+.navbar:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.navbar:hover:before {
+  width: 100%; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center; }
+
+#menubtn {
+  display: none;
+  position: absolute;
+  top: 2%;
+  right: 25px;
+  font-size: 2.5em;
+  cursor: pointer;
+  color: white;
+  z-index: 501; }
+
+/*Text inside side bar */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 2em;
+  color: teal;
+  display: block;
+  transition: 0.3s; }
+
+/*hover color over links */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1; }
+
+/*X close button */
+.closebtnNav {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 75px; }
+
+/* about me font#202020 */
+.about {
+  background-color: #D8D8D8; }
+
+#main-wrap > div {
+  height: 100vh;
+  overflow: hidden; }
+
+#text-left {
+  float: left;
+  width: 60%;
+  margin-left: 10%;
+  padding-left: 5%;
+  color: #011627;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4em;
+  border-left: thick solid #011627;
+  font-weight: 100; }
+
+#pic-right {
+  padding-left: 5%; }
+
+/*contact section */
+.con {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  position: absolute;
+  font-size: 6em;
+  text-align: center;
+  width: 95%;
+  z-index: 2;
+  margin-top: 25px; }
+
+h3 {
+  padding: 10px 0 5px 0;
+  font-size: 2em;
+  color: white; }
+
+h4 {
+  text-align: center;
+  font-size: 2.5em;
+  color: white; }
+
+.coverpic {
+  width: 100%;
+  height: 100vh; }
+
+/* Nav */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  z-index: 2;
+  margin-top: 2%;
+  right: 50px; }
+nav li {
+  display: inline;
+  padding: 35px;
+  text-align: center;
+  font-size: 1.4em;
+  z-index: 2; }
+  nav li a {
+    color: white;
+    text-decoration: none; }
+  nav li a:hover {
+    color: orange; }
+
+.portfolio {
+  background-color: #202020;
+  padding: 20px 5% 2% 5%; }
+
+/*portfolio pics */
+.portpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 60%;
+  /* portfolio text */ }
+
+span.portText {
+  text-align: center;
+  font-size: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 2%; }
+
+/*portfolio tags */
+.tag {
+  display: inline-block;
+  background: orange;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  font: normal 1em sans-serif;
+  border-radius: 10px; }
+
+.tags {
+  text-align: center; }
+
+/*portfolio box links */
+.box {
+  background-color: #202020;
+  color: gold;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  position: relative;
+  margin: 10px; }
+
+.box2 {
+  background-color: #202020;
+  color: #00FFFF;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  position: relative; }
+
+.box:hover, .box2:hover {
+  background-color: #00FFFF;
+  color: white;
+  cursor: pointer; }
+
+.boxes {
+  text-align: center;
+  padding-bottom: 2%; }
+
+.contact {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  background-color: #1d1d1d;
+  background-image: url(../img/footer.jpg);
+    background-image-width: cover;
+    background-image-background-repeat: no-repeat; }
+  .contact h2 {
+    text-align: center;
+    font-size: 4em;
+    margin: auto auto 0 auto;
+    color: #FFF;
+    font-family: "fontawesome", sans-serif; }
+  .contact span {
+    color: white;
+    font-family: "fontawesome", sans-serif; }
+
+form {
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+  width: 450px;
+  margin: auto;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column;
+  background: rgba(0, 0, 0, 0.3); }
+
+input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 3px; }
+
+input:focus {
+  background-color: #00FFFF; }
+
+textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border-radius: 3px;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+.contact button {
+  margin: auto;
+  color: #FFF;
+  min-height: 50px;
+  min-width: 180px;
+  max-width: 100%;
+  padding: 2px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(194, 194, 194, 0.2);
+  border-radius: 3px;
+  transition: all 0.3s ease; }
+  .contact button:hover {
+    background-color: #00FFFF;
+    cursor: pointer; }
+
+/*footer */
+.bottom {
+  margin-top: 450px;
+  text-align: center; }
+
+.bottomicon {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 50px;
+  margin-left: 15px;
+  font-family: fontawesome;
+  font-size: 5em;
+  text-align: center;
+  color: #bbb;
+  border-radius: 70%;
+  background: white;
+  overflow: hidden;
+  transition: color 0.3s; }
+
+.bottomicon:hover {
+  cursor: pointer;
+  color: lightblue; }
+
+footer {
+  background-color: #202020;
+  padding-top: 120px;
+  padding-bottom: 0;
+  margin: 0;
+  /*media queries */ }
+
+@media screen and (max-width: 770px) {
+  #menubtn {
+    display: block;
+    font-size: 2em; }
+
+  h1 {
+    font-size: 4em; }
+
+  .coverpic {
+    height: 600px; }
+
+  .bottomicon {
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px; }
+
+  .bottom {
+    margin-right: 25px; }
+
+  #main-wrap {
+    height: 100vh; }
+
+  #text-left {
+    display: block;
+    width: 80%; }
+
+  #pic-right {
+    display: none; }
+
+  h5 {
+    font-size: 1em; }
+
+  .sendbtn {
+    right: 40%; }
+
+  .skills {
+    display: none; }
+
+  .contact img {
+    height: 500px; }
+
+  .portfolio {
+    padding: 0; }
+
+  .portpic {
+    height: 200px;
+    width: 100%; }
+
+  span.portText {
+    font-size: 1.2em;
+    padding-bottom: 20px; }
+
+  .tags {
+    padding-bottom: 20px; }
+
+  nav {
+    display: none; }
+
+  .bottom {
+    margin-top: 350px; }
+
+  .jobtitle {
+    font-size: 1.2em; }
+
+  form {
+    width: 400px; } }
+@media screen and (max-width: 450px) {
+  form {
+    width: 320px; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
