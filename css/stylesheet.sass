@@ -187,6 +187,41 @@ nav
       
     a:hover
       color: orange
+
+
+
+/*About */
+.about-tools
+  width: 100%
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -ms-flex-pack: distribute
+  justify-content: space-around
+  position: relative
+  margin-top: 5px
+
+.about-tools-overlap
+  position: relative
+  z-index: 2
+  background-color: #D8D8D8
+
+
+
+.flex-middle
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-flow: row wrap
+  flex-flow: row wrap
+
+
+.about-tools-overlap > a
+  font-size: 4em
+  color: white
+  &:not(:first-child)
+    margin-left: 0.38em
+
   
 
   
@@ -328,37 +363,41 @@ textarea
     cursor: pointer
   
 /*footer*/
-.bottom
-  margin-top: 450px
-  text-align: center
-  
-.bottomicon
-  display: inline-block
-  width: 90px
-  height: 90px
-  line-height: 90px
-  margin: 50px
-  margin-left: 15px
-  font-family: fontawesome
+
+
+.flex-bottom
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -ms-flex-flow: row wrap
+  flex-flow: row wrap
+
+.footer-social
+  width: 100%
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -ms-flex-pack: distribute
+  justify-content: space-around
+  position: relative
+  margin-top: 5px
+
+.footer-social-overlap
+  position: relative
+  z-index: 2
+
+.footer-social-overlap > a
   font-size: 5em
-  text-align: center
-  color: #bbb
-  border-radius: 70%
-  background: white
-  overflow: hidden
-  transition: color .3s
-  
-.bottomicon:hover
-  cursor: pointer
-  color: lightblue
+  padding: 0 30px 0 30px
+  color: white
+  &:not(:first-child)
+    margin-left: 0.38em
+
+.footer-link
+  &:hover
+    color: #00FFFF
 
 
-footer
-  background-color: #202020
-  padding-top: 120px
-  padding-bottom: 0
-  margin: 0
-  
   /*media queries*/
 @media screen and (max-width: 770px)
 
@@ -430,6 +469,8 @@ footer
   form
     width: 400px
 
+  .footer-social-overlap > a
+    font-size: 4em
 
 @media screen and (max-width: 450px)
   form

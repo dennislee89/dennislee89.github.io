@@ -176,6 +176,35 @@ nav li {
   nav li a:hover {
     color: orange; }
 
+/*About */
+.about-tools {
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px; }
+
+.about-tools-overlap {
+  position: relative;
+  z-index: 2;
+  background-color: #D8D8D8; }
+
+.flex-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+.about-tools-overlap > a {
+  font-size: 4em;
+  color: white; }
+  .about-tools-overlap > a:not(:first-child) {
+    margin-left: 0.38em; }
+
 .portfolio {
   background-color: #202020;
   padding: 20px 5% 2% 5%; }
@@ -311,36 +340,38 @@ textarea {
     cursor: pointer; }
 
 /*footer */
-.bottom {
-  margin-top: 450px;
-  text-align: center; }
+.flex-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
 
-.bottomicon {
-  display: inline-block;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  margin: 50px;
-  margin-left: 15px;
-  font-family: fontawesome;
+.footer-social {
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px; }
+
+.footer-social-overlap {
+  position: relative;
+  z-index: 2; }
+
+.footer-social-overlap > a {
   font-size: 5em;
-  text-align: center;
-  color: #bbb;
-  border-radius: 70%;
-  background: white;
-  overflow: hidden;
-  transition: color 0.3s; }
+  padding: 0 30px 0 30px;
+  color: white; }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0.38em; }
 
-.bottomicon:hover {
-  cursor: pointer;
-  color: lightblue; }
-
-footer {
-  background-color: #202020;
-  padding-top: 120px;
-  padding-bottom: 0;
-  margin: 0;
+.footer-link {
   /*media queries */ }
+  .footer-link:hover {
+    color: #00FFFF; }
 
 @media screen and (max-width: 770px) {
   #menubtn {
@@ -408,7 +439,10 @@ footer {
     font-size: 1.2em; }
 
   form {
-    width: 400px; } }
+    width: 400px; }
+
+  .footer-social-overlap > a {
+    font-size: 4em; } }
 @media screen and (max-width: 450px) {
   form {
     width: 320px; } }
