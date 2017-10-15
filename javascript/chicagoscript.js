@@ -1,4 +1,5 @@
 //weather api 
+/*
 function init() {
         getWeather();
     }
