@@ -367,10 +367,6 @@ textarea {
     color: #00FFFF; }
 
 @media screen and (max-width: 450px) {
-  #menubtn {
-    display: block;
-    font-size: 2em; }
-
   h1 {
     font-size: 4em; }
 
@@ -462,6 +458,13 @@ textarea {
     font-size: 2em; } }
 @media screen and (max-width: 800px) {
   .contact {
-    min-height: 70vh; } }
+    min-height: 70vh; }
+
+  nav {
+    display: none; }
+
+  #menubtn {
+    display: block;
+    font-size: 2em; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
