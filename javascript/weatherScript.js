@@ -6,7 +6,7 @@ function init() {
 function getWeather(){
     jQuery(document).ready(function ($) {
         $.ajax({
-            url: "http://api.wunderground.com/api/ef7bf0e86a6f3e3a/geolookup/conditions/forecast/q/IL/Chicago.json",
+            url: "https://api.wunderground.com/api/ef7bf0e86a6f3e3a/geolookup/conditions/forecast/q/IL/Chicago.json",
             dataType: "jsonp",
             success: function (parsed_json) {
               

@@ -217,7 +217,8 @@ span.portText {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  font-family: "fontawesome", sans-serif; }
 
 /*portfolio tags */
 .tag {
@@ -365,7 +366,7 @@ textarea {
   .footer-link:hover {
     color: #00FFFF; }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 450px) {
   #menubtn {
     display: block;
     font-size: 2em; }
@@ -434,7 +435,13 @@ textarea {
     width: 400px; }
 
   .about-tools-flex-bottom {
-    display: none; } }
+    display: none; }
+
+  form {
+    width: 320px; }
+
+  .footer-social-overlap > a {
+    font-size: 3em; } }
 @media screen and (max-width: 375px) {
   #text-left {
     font-size: 1em; }
@@ -443,9 +450,18 @@ textarea {
     font-size: 3em; } }
 @media screen and (max-width: 320px) {
   .footer-social-overlap > a {
-    display: none; } }
-@media screen and (max-width: 450px) {
-  form {
-    width: 320px; } }
+    display: none; }
+
+  h1 {
+    font-size: 2.5em; }
+
+  h2 {
+    font-size: 2em; }
+
+  h4 {
+    font-size: 2em; } }
+@media screen and (max-width: 800px) {
+  .contact {
+    min-height: 70vh; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

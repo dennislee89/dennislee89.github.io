@@ -232,6 +232,7 @@ span.portText
   margin-right: auto
   color: white
   margin-bottom: 2%
+  font-family: 'fontawesome', sans-serif
   
 /*portfolio tags */
 .tag
@@ -383,7 +384,7 @@ textarea
 
 
   /*media queries*/
-@media screen and (max-width: 770px)
+@media screen and (max-width: 450px)
 
   #menubtn
     display: block
@@ -456,6 +457,12 @@ textarea
   .about-tools-flex-bottom
     display: none
 
+  form
+    width: 320px
+
+  .footer-social-overlap > a
+    font-size: 3em
+
 
 @media screen and (max-width: 375px)
   #text-left
@@ -469,7 +476,16 @@ textarea
   .footer-social-overlap > a
     display: none
 
+  h1
+    font-size: 2.5em
 
-@media screen and (max-width: 450px)
-  form
-    width: 320px
+  h2
+    font-size: 2em
+
+  h4
+    font-size: 2em
+
+@media screen and (max-width: 800px)
+  .contact
+    min-height: 70vh
+
