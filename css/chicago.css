@@ -559,6 +559,18 @@ span.textLeft {
 
   h1.title {
     top: 10%; } }
+@media screen and (max-width: 700px) {
+  .part2 {
+    background-image: none; }
+
+  .part1 {
+    background-image: none; }
+
+  .about {
+    background-image: none; } }
+@media screen and (max-width: 414px) {
+  .footer-social-overlap > a {
+    display: none; } }
 @media screen and (max-width: 375px) {
   .hero .pics {
     height: 70vh; }
@@ -635,10 +647,10 @@ span.textLeft {
   .part1 {
     margin-top: 0; }
 
-  .footer-social-overlap > a {
-    display: none; }
-
   footer {
     height: 50vh; } }
+@media screen and (max-width: 320px) {
+  footer {
+    height: 70vh; } }
 
 /*# sourceMappingURL=chicago.css.map */
