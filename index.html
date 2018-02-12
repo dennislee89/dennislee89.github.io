@@ -1,311 +1,377 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
+
 <head>
-
-				<title>My Webpage</title>
-
-<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>		
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-		
-	<img class="coverpic" src="img/cover.jpg" alt="cover picture" />
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Dennis L</h1>
+            <br>
+            <h2>Front End <br> Web Developer</h2>
+            
+        </div>
+        <!-- End #lead-content -->
 
-	<nav>
-	 <ul>
-	  <li><a href="#about" class="navbar">ABOUT ME</a></li>
-	  <li><a href="#portfolio" class="navbar">PROJECTS</a></li>
-	  <li><a href="https://dennisleesite.wordpress.com/" class="smoothScroll navbar">BLOG</a></li>
-	   <li><a href="#contactme" class="navbar">CONTACT</a></li>
-	</ul>
-	</nav>
+        <div id="lead-overlay"></div>
 
+       
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
-					<!--Side Nav--> 
-				<span id="menubtn" onclick="openNav()">&#9776;</span>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <p>I have beeen teaching myself Web development since March 2016<br>I started with books by Jon Duckett and then moved onto using FreeCodeCamp.  <br>I graduated from DePaul University with a Bachelors in Business Management in 2012. I currently work full time in the accounting department, but have been teaching myself web development after work. <br>
+                            On my free time other than learning about web development, I like to produce electronic music, work out at the gym, Brazilian jiu-jitsu, play guitar, and oil paint.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
 
-			<div id="mySidenav" class="sidenav">
-				<a href="javascript:void(0)" class="closebtnNav" onclick="closeNav()">X</a>
-				<a href="#about" class="navbar">About</a>	
-				<a href="#portfolio" class="navbar">Projects</a>
-				<a href="https://dennisleesite.wordpress.com/" class="navbar">Blog</a>
-				<a href="#contactme" class="navbar">Contact</a>
-			</div>
+    <!--
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
 
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
 
-
-				<div class="top">
-					<h1>DENNIS L</h1>
-					
-					<span class="jobtitle">FRONT END WEB DEVELOPER</span>
-				</div>
-
-
-
-			<div class='about'>
-			<a id="about"></a>
-			  <h2>About Me</h2>
-
-			  	<div id="main-wrap">
-			  		<div id="text-left">
-						<p>I have beeen teaching myself Web development since March 2016<br>I started with books by Jon Duckett and then moved onto using FreeCodeCamp.  <br>I graduated from DePaul University with a Bachelors in Business Management in 2012.<br> I currently work full time in the accounting department, but have been teaching myself web development after work. <br><br>
-							On my free time other than learning about web development, I like to produce electronic music, work out at the gym, Brazilian jiu-jitsu, play guitar, and oil paint. <br> Currently I am familiar with using HTML, CSS/SASS, Javascript, jQuery, Vue, React, Bootstrap and Photoshop.  
-							
-						</p>
-
-								<div class="about-tools-flex-bottom">
-									<h3>Tools</h3>
-									 <section class="about-social-flex-middle">
-									 			
-									    <span class="about-tools-overlap footer-social-icons-wrapper">
-										  <a href="#" class="about-tools" ><img src="img/html.png" alt="html icon"></a> 
-									      <a href="#" class="about-tools"><img src="img/css.png" alt="css icon"></a>
-									      <a href="#" class="about-tools" ><img src="img/js.png" alt="javascript icon"></a>
-									      <a href="#" class="about-tools"><img src="img/jquery.png" alt="jquery icon"></a>
-									      <a href="#" class="about-tools"><img src="img/vue.png" alt="vue icon"></a>
-									      <a href="#" class="about-tools"><img src="img/Bootstrap.png" alt="bootstrap icon"></a>
-									      <a href="#" class="about-tools"><img src="img/ps.png" alt="photoshop icon"></a>
-									      </span>
-									  	</section>
-								</div>
-					</div>
-
-
-					<div id="pic-right"> <img src="img/self.jpg" style="width: 50%"></div>
-
-
-				</div>
-
-			</div>
-
-
-
-			<div class='portfolio'>
-				<a id="portfolio"></a>
-			  <h2 style="color: #FECD04">Projects</h2>
-			  <img class='portpic' src='img/giphy.jpg' alt="portfolio picture">
-			  
-
-			  <h4>Giphy search app</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="https://codepen.io/dennislee89/pen/LeBjLK">Site</a>
-			      <a  class="box2"  href="https://codepen.io/dennislee89/pen/LeBjLK">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			          Used GIPHY API to create app<br>
-			          Allows user to search for GIFS from GIPHY database
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			      <div class='tag'>jQuery</div>
-			  </div>
-			  <hr>
-			</div>	
-				
-
-			<div class='portfolio'>
-			  
-			  <img class='portpic' src='img/quiz.jpg' alt="quiz picture">
-			  
-			  <h4>Buzzfeed style quiz</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="https://codepen.io/dennislee89/pen/LeBzYG">Site</a>
-			      <a  class="box2"  href="https://codepen.io/dennislee89/pen/LeBzYG">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			     Created quiz using pure JavaScript 
-			     <br>  
-				 Similar to BuzzFeed type quizzes
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			      <div class='tag'>jQuery</div>
-			  </div>
-			  <hr>
-			</div>
-
-
-			<div class='portfolio'>
-			  <img class='portpic' src='img/weatherpic.jpg' alt="weather picture">
-			  
-			  <h4>Weather App</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="weather.html">Site</a>
-			      <a  class="box2"  href="https://github.com/dennislee89/weather">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			    Designed webpage using HTML, Sass, JavaScript, jQuery 
-				<br> Learned how to use the Weather API wunderground
-				<br> Currently trying to add 5 day forecast and changing background image reflecting the currecnt temperature.
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			      <div class='tag'>jQuery</div>
-			      <div class='tag'>API</div>
-			  </div>
-			 <hr>
-			</div>
-
-
-			<div class='portfolio'>
-			  <img class='portpic' src='img/blackjack.jpg' alt="blackjack">
-			  
-			  <h4>Blackjack game</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="https://codepen.io/dennislee89/full/NXYegL/">Site</a>
-			      <a  class="box2"  href="https://codepen.io/dennislee89/full/NXYegL/">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			       Used JavaScript to create game
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			  </div>
-			 <hr>
-			</div>
-
-
-			<div class='portfolio'>
-
-				<div class='portfolio'>	  
-			  <img class='portpic' src='img/chifront.jpg' alt="chicago picture">
-			  
-			  <h4>Chicago Guide</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="chicago.html">Site</a>
-			      <a  class="box2"  href="https://github.com/dennislee89/guide-to-chicago">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			    Designed webpage using HTML, Sass, JavaScript, jQuery 
-				<br> Built the site with mobile device first in mind.
-				<br> My first attempt in using/learning how to configure weather API
-				<br> Learned how to use JSON along with the weather API
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			      <div class='tag'>jQuery</div>
-			      <div class='tag'>API</div>
-			  </div>
-			 <hr>
-			</div>
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+        </div>
+    </div>-->
+    <!-- End #experience -->
 
 
 
-		
-			  <img class='portpic' src='img/bullsSite.jpg' alt="bullsfansite picture">
-			  
-			  <h4>Chicago Bulls Fan site</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="bulls-main.html">Site</a>
-			      <a  class="box2"  href="https://github.com/dennislee89/bullsfansite.git">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			     Learned how to create content panel, carousel, and jquery animations.
-				<br> Built the site with mobile device first in mind.
-				<br> Created script that changes content/chart based on button selection.
-				<br> Applied chart.js and html canvas.
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			      <div class='tag'>jQuery</div>
-			      <div class='tag'>Bootstrap</div>
-			  </div>
-			  <hr>
-			</div>
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>DePaul University</h3>
+            <span class="education-date">September 2010 - June 2012</span>
+            <h4>Bachelor of Science in Business Management</h4>
+            <ul>
+                <li>
+                    Focus was primarily on accounting and later switched to business management
+                </li>
+
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Harper College</h3>
+            <span class="education-date">August 2007 - June 2010 </span>
+            <h4>General Education</h4>
+            <ul>
+                <li>
+                    Took a couple classes on HTML and CSS
+                </li>
+                <li>
+                    Focus was primarily on accounting 
+                </li>
+
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/giphy.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Giphy Search </h3>
+                        <p>
+                                    • Used GIPHY API to create app
+                                    • Allows user to search for GIFS from GIPHY database
+                        </p>
+                        <br>
+                        <a href="https://codepen.io/dennislee89/pen/LeBjLK">View Project</a>
+                                <div class='tags'>
+                                  <div class='tag'>HTML</div>
+                                  <div class='tag'>CSS</div>
+                                  <div class='tag'>JavaScript</div>
+                                  <div class='tag'>jQuery</div>
+                                  <div class='tag'>API</div>
+                                </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/quiz.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Buzzfeed Style Quiz </h3>
+                        <p>
+                                • Created the quiz using pure JavaScript
+                                • Similar to BuzzFeed type quizzes
+                        </p>
+                        <br>
+                        <a href="https://codepen.io/dennislee89/pen/LeBzYG">View Project</a>
+                                <div class='tags'>
+                                  <div class='tag'>HTML</div>
+                                  <div class='tag'>CSS</div>
+                                  <div class='tag'>JavaScript</div>
+                                </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/blackjack.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Blackjack Game</h3>
+                        <p>
+                                • Written in JavaScript to create game 
+                                • Currently still trying to improve code and design front of cards.
+                        </p>
+                        <br>
+                        <a href="https://codepen.io/dennislee89/pen/NXYegL">View Project</a>
+                                <div class='tags'>
+                                  <div class='tag'>HTML</div>
+                                  <div class='tag'>CSS</div>
+                                  <div class='tag'>JavaScript</div>      
+                                </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/weatherpic.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>
+                           • Learned how to use the Weather API wunderground
+                           • Currently trying to add 3 day forecast as well as user search.
+                           • Background picture changes based on weather
+                        </p>
+                        <br>
+                            <div>
+                                <a class= 'project-link' href="weather.html">View Project</a>
+                                <a href="https://github.com/dennislee89/weather">View Code</a>
+                            </div>
+                                <div class='tags'>
+                                  <div class='tag'>HTML</div>
+                                  <div class='tag'>CSS</div>
+                                  <div class='tag'>JavaScript</div>
+                                  <div class='tag'>jQuery</div>
+                                  <div class='tag'>API</div>
+                                </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/bullsSite.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Chicago Bulls Fan Site</h3>
+                        <p>
+                                • Fully developed website using Bootstrap, JavaScript and jQuery
+                                • Created graphical chart showing player stats using chart.js 
+                                • Tab panels using jQuery and image gallery using JavaScript 
+                                • Debugged errors with Chrome developer tools
+                        </p>
+                        <br>
+                            <div>
+                                <a class= 'project-link' href="">View Project</a>
+                                <a href="">View Code</a>
+                            </div>
+                                <div class='tags'>
+                                  <div class='tag'>HTML</div>
+                                  <div class='tag'>CSS</div>
+                                  <div class='tag'>JavaScript</div>
+                                  <div class='tag'>jQuery</div>
+                                </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                 <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/Lsk.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>LSK Printing Web Site </h3>
+                        <p>
+                            • Fully developed website for former employer
+                           • Learned how to use flexbox for css to make site more mobile responsive
+                        </p>
+                        <br>
+                            <div>
+                                <a class= 'project-link' href="">View Project</a>
+                                <a href="">View Code</a>
+                            </div>
+                                <div class='tags'>
+                                  <div class='tag'>HTML</div>
+                                  <div class='tag'>CSS</div>
+                                  <div class='tag'>JavaScript</div>
+                                </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
 
 
-			<div class='portfolio'>
-			  <img class='portpic' src='img/Lsk.jpg' alt="LSK printing">
-			  
-			  <h4>LSK Printing</h4>
-			    <div class='boxes'>
-			      <a  class="box"  href="http://www.lskprinting.com/">Site</a>
-			      <a  class="box2"  href="https://github.com/dennislee89/LSK-Printing">Code</a>
-			    </div>
-			  
-			    <span class='portText'>
-			    Designed webpage using HTML, Sass, JavaScript, jQuery 
-				<br> Learned how to use flexbox for css to make site more mobile responsive
-				<br> Created contact form for customers to reach company
-			  </span>
-			  
-			  <div class='tags'>
-			      <div class='tag'>HTML</div>
-			      <div class='tag'>CSS</div>
-			      <div class='tag'>JavaScript</div>
-			      <div class='tag'>jQuery</div>
-			  </div>
-			 <hr>
-			</div>
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Vue</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Photoshop</li>
+
+       
+        </ul>
+    </div>
+    <!-- End #skills -->
 
 
 
 
+    <div id="contact">
+        <h2>CONTACT</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/dennislee0890@hotmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-2 top">
+                 
+                </div>
+
+                <div class="col-sm-6 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/dennislee89" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/dennis-m-lee-/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/dennislee89/#" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
 
 
-				<div class="contact">
-					<a id="contactme"></a>
-       				 <h2>Contact</h2>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
 
-				        <form id="form" action="https://formspree.io/dennislee0890@hotmail.com"
-				      method="POST">
-				        	<span >Your Name:</span>
-				         <input id="name" type=text placeholder="Name">
-
-				         	<span >Your Email:</span>
-				         <input  id="email" type=email name="email" placeholder="Email"> 
-
-				         	<span >Your Message:</span>
-				         <textarea id="messages" name="message" placeholder="Message" wrap="virtual"></textarea>
-				         <button type="submit">Submit</button>
-				         <input type="hidden" name="_next" value="" />
-				       </form>
-
-
-					<section class="footer-social flex-bottom">
-					    <span class="footer-social-overlap footer-social-icons-wrapper">
-					    <a href="https://www.linkedin.com/in/dennis-lee-b4785633/" class="footer-link" ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-					    <a href="https://github.com/dennislee89" class="footer-link" ><i class="fa fa-github" aria-hidden="true"></i></a>
-					    <a href="https://codepen.io/dennislee89/#" class="footer-link"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-					    </span>
-					</section>
-
-     			 </div>
-
-
-
-<script type="text/javascript" src="javascript/portfolioscript.js"></script>  
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
-
-
